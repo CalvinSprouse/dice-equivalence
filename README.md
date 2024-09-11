@@ -11,3 +11,5 @@ Similarly,
 $$\text{min}(n\text{d}m) \equiv \left\lceil 1 - \left(1 - \frac{\text{rand}([1,m^n])}{m^n}\right)^{1/n} \right\rceil .$$
 
 Also notice in the figures, specifically the generation time comparisons, that the equivalent algorithm offers significant time savings *in unrealistic numbers of dice* and more importantly no significant increase in computational cost at *unrealistic* numbers of dice.
+
+It's not rigorous, but it's fine.
